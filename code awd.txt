@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var str = 'apple Red apple "orange" "green" avocado';
+
+        var f = /orange/g;	//matches only at the beginning of the input
+        console.log(str.match(f));
+        var g = /e/g;	//matches only at the end of the input
+        console.log(str.match(g));
+        var h = /\bg/g;	//matches only at a word boundary
+        console.log(str.match(h));
+        var i = /\Bg/g;	//matches only not at a word boundary
+        console.log(str.match(i));
+
+    </script>
+
+    <plog
+
+</body>
+
+</html>
