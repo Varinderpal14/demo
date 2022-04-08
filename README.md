@@ -28,7 +28,7 @@ class Child extends Person {
 }
 var a = window. prompt("Enter The Person Name: ");
 var b = window. prompt("Enter The Person Age: ");
-var c = window. prompt("Enter The Person Car Color: ");
+var c = window. prompt("Enter The Person Car's Color: ");
 let obj = new Child(a, b, c);
 console.log(obj.sing());
 console.log(obj.car());
