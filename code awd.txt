@@ -18,7 +18,7 @@
         console.log(str.match(g));
         var h = /\bg/g;	//matches only at a word boundary
         console.log(str.match(h));
-        var i = /\Bg/g;	//matches only not at a word boundary
+        var i = /\Bg/g;	//matches only not at A word boundary
         console.log(str.match(i));
 
     </script>
